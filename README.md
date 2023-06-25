@@ -26,11 +26,15 @@ Or you can use builder methods:
 ```java
 new FluentCodes().withJoiner("_").withMinLength(4).withMaxLength(10).adjective().verb().noun().sixDigits().toString()
 ```
+
 ```text
 Output: acadmic_provided_writings_741319
 ```
 
+### Words
 
-## License
+Words are generated using code @ https://github.com/sam-mmm/word_generator
+
+### License
 
 https://opensource.org/licenses/Apache-2.0

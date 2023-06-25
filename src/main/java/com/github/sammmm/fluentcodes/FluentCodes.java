@@ -1,4 +1,4 @@
-package org.sam.mmm.fluentcodes;
+package com.github.sammmm.fluentcodes;
 
 import java.sql.*;
 import java.util.ArrayList;

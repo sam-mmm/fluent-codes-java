@@ -1,4 +1,4 @@
-package org.sam.mmm.fluentcodes;
+package com.github.sammmm.fluentcodes;
 
 public class LengthMismatchException extends Exception {
     public LengthMismatchException(String message) {
