@@ -10,7 +10,7 @@ To generate code with four words:
 FluentCodes.generateCodeWithFourWords()
 ```
 ```text
-Output:fluffy-vacuum-misuse-deadly
+Output: fluffy-vacuum-misuse-deadly
 ```
 
 To generate code with three words and six digits:
@@ -19,7 +19,7 @@ To generate code with three words and six digits:
 FluentCodes.generateCodeWithThreeWordsAndSixDigits()
 ```
 ```text
-Output:calmer-taints-fourty-887709
+Output: calmer-taints-fourty-887709
 ```
 Or you can use builder methods:
 
@@ -27,7 +27,7 @@ Or you can use builder methods:
 new FluentCodes().withJoiner("_").withMinLength(4).withMaxLength(10).adjective().verb().noun().sixDigits().toString()
 ```
 ```text
-Output:acadmic_provided_writings_741319
+Output: acadmic_provided_writings_741319
 ```
 
 
