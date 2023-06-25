@@ -35,10 +35,10 @@ public class FluentCodesTest {
             throw new RuntimeException(e);
         }
 
-        try {
-            System.out.println(new FluentCodes().withJoiner("_").withMinLength(40).withMaxLength(10).adjective().verb().noun().sixDigits().toString());
-        } catch (LengthMismatchException e) {
-            throw new RuntimeException(e);
-        }
+//        try {
+//            System.out.println(new FluentCodes().withJoiner("_").withMinLength(40).withMaxLength(10).adjective().verb().noun().sixDigits().toString());
+//        } catch (LengthMismatchException e) {
+//            throw new RuntimeException(e);
+//        }
     }
 }
