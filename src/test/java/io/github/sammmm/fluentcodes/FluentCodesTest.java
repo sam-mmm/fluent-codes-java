@@ -22,6 +22,7 @@ public class FluentCodesTest {
 
         try {
             System.out.println(new FluentCodes().withJoiner("_").withMinLength(4).withMaxLength(10).adjective().verb().noun().sixDigits().toString());
+            System.out.println(new FluentCodes().withJoiner("").withMinLength(4).withMaxLength(10).adjective().verb().noun().sixDigits().toString());
         } catch (LengthMismatchException e) {
             throw new RuntimeException(e);
         }
