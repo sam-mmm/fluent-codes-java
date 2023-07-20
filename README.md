@@ -24,7 +24,15 @@ Output: calmer-taints-fourty-887709
 Or you can use builder methods:
 
 ```java
-new FluentCodes().withJoiner("_").withMinLength(4).withMaxLength(10).adjective().verb().noun().sixDigits().toString()
+new FluentCodes()
+        .withJoiner("_")
+        .withMinLength(4)
+        .withMaxLength(10)
+        .adjective()
+        .verb()
+        .noun()
+        .sixDigits()
+        .toString()
 ```
 
 ```text

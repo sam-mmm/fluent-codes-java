@@ -34,22 +34,22 @@ replay_pid*
 /target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst
 /target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst
 /target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst
-/target/surefire-reports/junitreports/TEST-fluentcodes.mmm.com.github.sammmm.fluentcodes.FluentCodesTest.xml
-/target/surefire-reports/old/fluentcodes.mmm.com.github.sammmm.fluentcodes.FluentCodesTest/classes.html
-/target/surefire-reports/old/fluentcodes.mmm.com.github.sammmm.fluentcodes.FluentCodesTest/Command line test.properties
-/target/surefire-reports/old/fluentcodes.mmm.com.github.sammmm.fluentcodes.FluentCodesTest/groups.html
-/target/surefire-reports/old/fluentcodes.mmm.com.github.sammmm.fluentcodes.FluentCodesTest/index.html
-/target/surefire-reports/old/fluentcodes.mmm.com.github.sammmm.fluentcodes.FluentCodesTest/main.html
-/target/surefire-reports/old/fluentcodes.mmm.com.github.sammmm.fluentcodes.FluentCodesTest/methods.html
-/target/surefire-reports/old/fluentcodes.mmm.com.github.sammmm.fluentcodes.FluentCodesTest/methods-alphabetical.html
-/target/surefire-reports/old/fluentcodes.mmm.com.github.sammmm.fluentcodes.FluentCodesTest/methods-not-run.html
-/target/surefire-reports/old/fluentcodes.mmm.com.github.sammmm.fluentcodes.FluentCodesTest/reporter-output.html
-/target/surefire-reports/old/fluentcodes.mmm.com.github.sammmm.fluentcodes.FluentCodesTest/testng.xml.html
-/target/surefire-reports/old/fluentcodes.mmm.com.github.sammmm.fluentcodes.FluentCodesTest/toc.html
+/target/surefire-reports/junitreports/TEST-fluentcodes.mmm.fluentcodes.sammmm.io.github.FluentCodesTest.xml
+/target/surefire-reports/old/fluentcodes.mmm.fluentcodes.sammmm.io.github.FluentCodesTest/classes.html
+/target/surefire-reports/old/fluentcodes.mmm.fluentcodes.sammmm.io.github.FluentCodesTest/Command line test.properties
+/target/surefire-reports/old/fluentcodes.mmm.fluentcodes.sammmm.io.github.FluentCodesTest/groups.html
+/target/surefire-reports/old/fluentcodes.mmm.fluentcodes.sammmm.io.github.FluentCodesTest/index.html
+/target/surefire-reports/old/fluentcodes.mmm.fluentcodes.sammmm.io.github.FluentCodesTest/main.html
+/target/surefire-reports/old/fluentcodes.mmm.fluentcodes.sammmm.io.github.FluentCodesTest/methods.html
+/target/surefire-reports/old/fluentcodes.mmm.fluentcodes.sammmm.io.github.FluentCodesTest/methods-alphabetical.html
+/target/surefire-reports/old/fluentcodes.mmm.fluentcodes.sammmm.io.github.FluentCodesTest/methods-not-run.html
+/target/surefire-reports/old/fluentcodes.mmm.fluentcodes.sammmm.io.github.FluentCodesTest/reporter-output.html
+/target/surefire-reports/old/fluentcodes.mmm.fluentcodes.sammmm.io.github.FluentCodesTest/testng.xml.html
+/target/surefire-reports/old/fluentcodes.mmm.fluentcodes.sammmm.io.github.FluentCodesTest/toc.html
 /target/surefire-reports/old/index.html
-/target/surefire-reports/fluentcodes.mmm.com.github.sammmm.fluentcodes.FluentCodesTest/Command line test.html
-/target/surefire-reports/fluentcodes.mmm.com.github.sammmm.fluentcodes.FluentCodesTest/Command line test.xml
-/target/surefire-reports/fluentcodes.mmm.com.github.sammmm.fluentcodes.FluentCodesTest/testng-failed.xml
+/target/surefire-reports/fluentcodes.mmm.fluentcodes.sammmm.io.github.FluentCodesTest/Command line test.html
+/target/surefire-reports/fluentcodes.mmm.fluentcodes.sammmm.io.github.FluentCodesTest/Command line test.xml
+/target/surefire-reports/fluentcodes.mmm.fluentcodes.sammmm.io.github.FluentCodesTest/testng-failed.xml
 /target/surefire-reports/bullet_point.png
 /target/surefire-reports/collapseall.gif
 /target/surefire-reports/emailable-report.html
@@ -57,10 +57,10 @@ replay_pid*
 /target/surefire-reports/index.html
 /target/surefire-reports/jquery-3.6.0.min.js
 /target/surefire-reports/navigator-bullet.png
-/target/surefire-reports/fluentcodes.mmm.com.github.sammmm.fluentcodes.FluentCodesTest.txt
+/target/surefire-reports/fluentcodes.mmm.fluentcodes.sammmm.io.github.FluentCodesTest.txt
 /target/surefire-reports/passed.png
 /target/surefire-reports/skipped.png
-/target/surefire-reports/TEST-fluentcodes.mmm.com.github.sammmm.fluentcodes.FluentCodesTest.xml
+/target/surefire-reports/TEST-fluentcodes.mmm.fluentcodes.sammmm.io.github.FluentCodesTest.xml
 /target/surefire-reports/testng.css
 /target/surefire-reports/testng-failed.xml
 /target/surefire-reports/testng-reports.css
