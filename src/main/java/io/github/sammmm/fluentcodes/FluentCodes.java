@@ -18,7 +18,7 @@ import java.util.List;
 import java.util.Random;
 
 /**
- * <h4>Java fluent codes</h4>
+ * <h1>Java fluent codes</h1>
  * <p>
  * This library can be use to generate fluent codes.
  * </p>
@@ -72,7 +72,7 @@ public class FluentCodes {
      * Generates code with four words
      * Ex: 'fluffy-vacuum-misuse-deadly'
      *
-     * @return generated code
+     * @return Generated code
      */
     public static String generateCodeWithFourWords() {
         return new FluentCodes().adjective().verb().noun().adjective().toString();
@@ -82,7 +82,7 @@ public class FluentCodes {
      * Generates code with three words and six digits
      * Ex: 'calmer-taints-fourty-887709'
      *
-     * @return generated code
+     * @return Generated code
      */
     public static String generateCodeWithThreeWordsAndSixDigits() {
         return new FluentCodes().adjective().verb().noun().sixDigits().toString();
@@ -107,7 +107,7 @@ public class FluentCodes {
     }
 
     /**
-     * @return
+     * @return FluentCodes
      */
     public FluentCodes adposition() {
         selectWord("adp");
@@ -115,7 +115,7 @@ public class FluentCodes {
     }
 
     /**
-     * @return
+     * @return FluentCodes
      */
     public FluentCodes adverb() {
         selectWord("adv");
@@ -123,7 +123,7 @@ public class FluentCodes {
     }
 
     /**
-     * @return
+     * @return FluentCodes
      */
     public FluentCodes auxiliary() {
         selectWord("aux");
@@ -131,7 +131,7 @@ public class FluentCodes {
     }
 
     /**
-     * @return
+     * @return FluentCodes
      */
     public FluentCodes coordinatingConjunction() {
         selectWord("cconj");
@@ -139,7 +139,7 @@ public class FluentCodes {
     }
 
     /**
-     * @return
+     * @return FluentCodes
      */
     public FluentCodes determiner() {
         selectWord("det");
@@ -147,7 +147,7 @@ public class FluentCodes {
     }
 
     /**
-     * @return
+     * @return FluentCodes
      */
     public FluentCodes interjection() {
         selectWord("intj");
@@ -155,7 +155,7 @@ public class FluentCodes {
     }
 
     /**
-     * @return
+     * @return FluentCodes
      */
     public FluentCodes noun() {
         selectWord("noun");
@@ -168,7 +168,7 @@ public class FluentCodes {
 //    }
 
     /**
-     * @return
+     * @return FluentCodes
      */
     public FluentCodes particle() {
         selectWord("part");
@@ -176,7 +176,7 @@ public class FluentCodes {
     }
 
     /**
-     * @return
+     * @return FluentCodes
      */
     public FluentCodes pronoun() {
         selectWord("pron");
@@ -184,7 +184,7 @@ public class FluentCodes {
     }
 
     /**
-     * @return
+     * @return FluentCodes
      */
     public FluentCodes properNoun() {
         selectWord("propn");
@@ -192,7 +192,7 @@ public class FluentCodes {
     }
 
     /**
-     * @return
+     * @return FluentCodes
      */
     public FluentCodes punctuation() {
         selectWord("punct");
@@ -200,7 +200,7 @@ public class FluentCodes {
     }
 
     /**
-     * @return
+     * @return FluentCodes
      */
     public FluentCodes subordinatingConjunction() {
         selectWord("sconj");
@@ -208,7 +208,7 @@ public class FluentCodes {
     }
 
     /**
-     * @return
+     * @return FluentCodes
      */
     public FluentCodes symbol() {
         selectWord("sym");
@@ -216,7 +216,7 @@ public class FluentCodes {
     }
 
     /**
-     * @return
+     * @return FluentCodes
      */
     public FluentCodes verb() {
         selectWord("verb");
@@ -224,7 +224,7 @@ public class FluentCodes {
     }
 
     /**
-     * @return
+     * @return FluentCodes
      */
     public FluentCodes sixDigits() {
         words.add(String.format("%06d", random.nextInt(999999)));
@@ -259,8 +259,9 @@ public class FluentCodes {
     }
 
     /**
+     * Set joiner
      * @param joiner default joiner is '-'
-     * @return
+     * @return FluentCodes
      */
     public FluentCodes withJoiner(String joiner) {
         this.joiner = joiner;
@@ -269,9 +270,10 @@ public class FluentCodes {
 
 
     /**
+     * Set min length for word
      * @param min default min length is 6
-     * @return
-     * @throws LengthMismatchException
+     * @return FluentCodes
+     * @throws LengthMismatchException When min length is larger than max length
      */
     public FluentCodes withMinLength(int min) throws LengthMismatchException {
         if (min > maxLength) {
@@ -282,9 +284,10 @@ public class FluentCodes {
     }
 
     /**
+     * Set max length for word
      * @param max default max length is 6
-     * @return
-     * @throws LengthMismatchException
+     * @return FluentCodes
+     * @throws LengthMismatchException When min length is larger than max length
      */
     public FluentCodes withMaxLength(int max) throws LengthMismatchException {
         if (max < minLength) {
@@ -297,7 +300,7 @@ public class FluentCodes {
     /**
      * Produces a word based on used builder methods.
      *
-     * @return
+     * @return Generated code
      */
     @Override
     public String toString() {
