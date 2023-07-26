@@ -18,7 +18,9 @@ import java.util.List;
 import java.util.Random;
 
 /**
- * <h1>Java fluent codes</h1>
+ * <strong>
+ *     Java fluent codes
+ * </strong>
  * <p>
  * This library can be use to generate fluent codes.
  * </p>
