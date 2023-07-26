@@ -116,14 +116,14 @@
                             <remoteTagging>false</remoteTagging>
                             <arguments>-DskipTests=true</arguments>
                         </configuration>
-                        <executions>
-                            <execution>
-                                <id>default</id>
-                                <goals>
-                                    <goal>perform</goal>
-                                </goals>
-                            </execution>
-                        </executions>
+                        <!--                        <executions>-->
+                        <!--                            <execution>-->
+                        <!--                                <id>default</id>-->
+                        <!--                                <goals>-->
+                        <!--                                    <goal>perform</goal>-->
+                        <!--                                </goals>-->
+                        <!--                            </execution>-->
+                        <!--                        </executions>-->
                     </plugin>
                     <plugin>
                         <groupId>org.apache.maven.plugins</groupId>
