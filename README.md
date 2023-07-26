@@ -43,6 +43,9 @@ Output: acadmic_provided_writings_741319
 
 Words are generated using code @ https://github.com/sam-mmm/word_generator
 
+Definitions of terms adjective, adposition, adverb, auxiliary, coordinatingConjunction, determiner, interjection, noun,
+numeral, particle, pronoun, properNoun, punctuation, subordinatingConjunction, symbol, verb
+are from https://universaldependencies.org/u/pos/
 ### License
 
-https://opensource.org/licenses/Apache-2.0
+http://www.apache.org/licenses/LICENSE-2.0

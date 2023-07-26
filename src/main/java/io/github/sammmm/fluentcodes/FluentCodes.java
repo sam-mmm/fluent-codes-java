@@ -1,3 +1,15 @@
+// Licensed under the Apache License, Version 2.0 (the "License");
+// you may not use this file except in compliance with the License.
+// You may obtain a copy of the License at
+//
+// http://www.apache.org/licenses/LICENSE-2.0
+//
+// Unless required by applicable law or agreed to in writing, software
+// distributed under the License is distributed on an "AS IS" BASIS,
+// WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+// See the License for the specific language governing permissions and
+// limitations under the License.
+
 package io.github.sammmm.fluentcodes;
 
 import java.sql.*;
@@ -6,21 +18,26 @@ import java.util.List;
 import java.util.Random;
 
 /**
- * This is builder class for fluent codes
+ * <h4>Java fluent codes</h4>
+ * <p>
+ * This library can be use to generate fluent codes.
+ * </p>
  * <p>
  * Default joiner is '-'
  * Default length of words are 6
- *
+ * </p>
  * <p>
  * Examples:
  * 1.
  * FluentCodes.generateCodeWithFourWords()
  * 'fluffy-vacuum-misuse-deadly'
+ * </p>
  * <p>
  * 2.
  * FluentCodes.generateCodeWithThreeWordsAndSixDigits()
  * 'calmer-taints-fourty-887709'
- * <p>
+ *  </p>
+ *  <p>
  * 3.
  * new FluentCodes()
  * .withJoiner("_")
@@ -32,12 +49,15 @@ import java.util.Random;
  * .sixDigits()
  * .toString()
  * 'acadmic_provided_writings_741319'
- * <p>
+ *  </p>
+ *
  * <p>
  * Definitions of terms adjective, adposition, adverb, auxiliary, coordinatingConjunction, determiner, interjection,
  * noun, numeral, particle, pronoun, properNoun, punctuation, subordinatingConjunction, symbol, verb
  * are from https://universaldependencies.org/u/pos/
  *
+ * Words are generated using code @ https://github.com/sam-mmm/word_generator
+ * </p>
  * @author Sam-mmm
  */
 public class FluentCodes {
