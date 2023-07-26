@@ -1,6 +1,6 @@
 # Java fluent codes
 
-This library can be use to generate fluent codes.
+This library can be used to generate fluent codes.
 
 ## Example
 

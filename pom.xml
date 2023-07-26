@@ -3,7 +3,9 @@
          xmlns="http://maven.apache.org/POM/4.0.0"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
-
+    <name>Java Fluent Codes</name>
+    <description>This library can be used to generate fluent codes.</description>
+    <url>https://github.com/sam-mmm/fluent-codes-java</url>
     <groupId>io.github.sammmm</groupId>
     <artifactId>fluent-codes</artifactId>
     <version>1.0-SNAPSHOT</version>
@@ -15,8 +17,8 @@
     </licenses>
     <developers>
         <developer>
-            <id>sam-mmm</id>
-            <name>sam-mmm</name>
+            <id>sammmm</id>
+            <name>sammmm</name>
             <email>samithajay@gmail.com</email>
         </developer>
     </developers>
@@ -89,7 +91,7 @@
     </distributionManagement>
     <profiles>
         <profile>
-            <id>ci-cd</id>
+            <id>release</id>
             <build>
                 <plugins>
                     <plugin>
@@ -100,7 +102,7 @@
                         <configuration>
                             <serverId>ossrh</serverId>
                             <nexusUrl>https://s01.oss.sonatype.org</nexusUrl>
-                            <autoReleaseAfterClose>${env.AUTO_RELEASE_AFTER_CLOSE}</autoReleaseAfterClose>
+                            <autoReleaseAfterClose>true</autoReleaseAfterClose>
                         </configuration>
                     </plugin>
                     <plugin>
@@ -109,6 +111,10 @@
                         <version>2.5.3</version>
                         <configuration>
                             <tagNameFormat>@{project.version}</tagNameFormat>
+                            <pushChanges>false</pushChanges>
+                            <localCheckout>true</localCheckout>
+                            <remoteTagging>false</remoteTagging>
+                            <arguments>-DskipTests=true</arguments>
                         </configuration>
                         <executions>
                             <execution>
