@@ -4,7 +4,7 @@ name: Java CI with Maven
 
 on:
   push:
-    branches: [ release ]
+    branches: [ main ]
   workflow_dispatch:
     inputs:
       releaseVersion:
@@ -51,7 +51,7 @@ jobs:
       - name: Release With Maven
         run: |
           mvn -B -U \
-            -Prelease \
+            -Pci-cd \
             release:prepare \
             release:perform \
             javadoc:jar \
